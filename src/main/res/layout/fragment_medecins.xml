@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Titre -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste des Médecins"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="20dp"/>
+
+    <!-- Liste des médecins -->
+    <ListView
+        android:id="@+id/listViewMedecins"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_medecin" />
+
+    <!-- Bouton pour ajouter un nouveau médecin -->
+    <Button
+        android:id="@+id/buttonAddMedecins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un Médecin"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

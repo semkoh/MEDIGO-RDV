@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Date et Heure du Rendez-vous -->
+    <TextView
+        android:id="@+id/textViewRendezVousDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+
+    <!-- Motif du Rendez-vous -->
+    <TextView
+        android:id="@+id/textViewRendezVousMotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motif"
+        android:textSize="14sp"
+        android:paddingBottom="5dp"/>
+
+    <!-- Statut du Rendez-vous -->
+    <TextView
+        android:id="@+id/textViewRendezVousStatut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statut"
+        android:textSize="14sp"/>
+
+</LinearLayout>

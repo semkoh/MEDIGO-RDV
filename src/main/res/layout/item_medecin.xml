@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Nom et Prénom du Médecin -->
+    <TextView
+        android:id="@+id/textViewMedecinNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom Prénom"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Spécialité -->
+    <TextView
+        android:id="@+id/textViewMedecinSpecialite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spécialité" />
+
+</LinearLayout>

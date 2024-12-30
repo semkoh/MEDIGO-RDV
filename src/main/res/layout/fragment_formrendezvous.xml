@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- Champ pour la date et l'heure du rendez-vous -->
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date et Heure"
+        android:inputType="datetime"
+        android:padding="16dp"
+        android:minHeight="48dp"
+    android:importantForAccessibility="yes" />
+
+    <!-- Champ pour le motif du rendez-vous -->
+    <EditText
+        android:id="@+id/editTextMotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Motif"
+        android:padding="16dp"
+        android:minHeight="48dp"
+    android:importantForAccessibility="yes" />
+
+    <!-- Spinner pour le statut du rendez-vous -->
+    <Spinner
+        android:id="@+id/spinnerStatut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Spinner pour sélectionner un patient -->
+    <Spinner
+        android:id="@+id/spinnerPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Spinner pour sélectionner un médecin -->
+    <Spinner
+        android:id="@+id/spinnerMedecin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Bouton pour enregistrer le rendez-vous -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:importantForAccessibility="yes" />
+
+</LinearLayout>

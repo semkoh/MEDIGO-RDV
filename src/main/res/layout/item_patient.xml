@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Nom et Prénom -->
+    <TextView
+        android:id="@+id/textViewPatientNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom Prénom"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/textViewPatientEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <!-- Téléphone -->
+    <TextView
+        android:id="@+id/textViewPatientTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Téléphone" />
+
+    <!-- Date de Naissance -->
+    <TextView
+        android:id="@+id/textViewPatientDateNaissance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date de Naissance" />
+
+    <!-- Boutons d'édition et de suppression -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <!-- Bouton Editer -->
+        <Button
+            android:id="@+id/buttonEditPatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Éditer"
+            android:layout_weight="1"/>
+
+        <!-- Bouton Supprimer -->
+        <Button
+            android:id="@+id/buttonDeletePatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supprimer"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

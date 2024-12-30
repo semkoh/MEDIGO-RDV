@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RDV</string>
+    <string-array name="statuts_rendezvous">
+        <item>en attente</item>
+        <item>confirmé</item>
+        <item>annulé</item>
+    </string-array>
+</resources>
